@@ -1,6 +1,6 @@
-const axios = require("axios");
+import axios from "axios";
 //node-html-parser is npm libary for genrating dom tree from given html for element query support .
-const { parse } = require("node-html-parser");
+import { parse } from "node-html-parser";
 
 //used to get the meta tags  values
 const readMT = (el, name) => {
@@ -90,4 +90,4 @@ const metaDataParser = async (url) => {
   return { meta, og, images, icons };
 };
 
-module.exports = metaDataParser;
+export default metaDataParser;

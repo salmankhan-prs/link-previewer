@@ -1,4 +1,5 @@
-const metaDataParser = require("./parser");
+import metaDataParser from "./parser";
+
 /***
  * fuction to Generate meta tags for the given website
  *
