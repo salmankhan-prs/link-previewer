@@ -83,4 +83,4 @@ const getMetaData = async (url) => {
   }
 };
 
-module.exports = getMetaData;
+export default getMetaData;
