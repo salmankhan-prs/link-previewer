@@ -5,7 +5,7 @@ const app = express();
 //To solve CORS issue
 app.use(cors());
 //to test the API
-app.get("/", (req, res) => {
+app.get("/api", (req, res) => {
   res
     .status(200)
     .send(
